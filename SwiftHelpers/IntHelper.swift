@@ -24,8 +24,13 @@ extension Int {
         }
     }
         
-    mutating func square() {
-        self = self * self
+    func square() -> Int {
+        return self * self
+    }
+    
+    //Square Bang, 
+    mutating func square🎉() {
+        self = square()
     }
 }
 

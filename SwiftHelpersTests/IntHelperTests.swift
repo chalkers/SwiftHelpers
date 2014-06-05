@@ -40,10 +40,17 @@ class IntHelperTests: XCTestCase {
     
     func testSquare() {
         var n = 2
-        n.square()
-        XCTAssertEqual(n, 4, "n should be 4")
-
+        XCTAssertEqual(n.square(), 4, "n.square() should be 4")
+        XCTAssertEqual(n, 2, "n should be 2")
     }
+    
+    
+    func testMutatingSquare() {
+        var n = 2
+        n.square🎉()
+        XCTAssertEqual(n, 4, "n should be 4")
+    }
+
     
     func testEvenness() {
         XCTAssertFalse(1.isEven, "Should be false")

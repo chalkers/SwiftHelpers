@@ -9,8 +9,9 @@
 import Foundation
 
 extension Array {
-    
-    mutating func reverseSelf() {
+
+    //Reverse Bang, changes the array itself
+    mutating func reverse🎉() {
         self = self.reverse()
     }
 }

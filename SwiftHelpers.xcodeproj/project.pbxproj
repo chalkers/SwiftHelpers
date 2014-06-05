@@ -370,6 +370,7 @@
 				49E74DEE193F240300D5DF90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49E74E14193F273B00D5DF90 /* Build configuration list for PBXNativeTarget "SwiftHelpersTests" */ = {
 			isa = XCConfigurationList;
@@ -378,6 +379,7 @@
 				49E74E16193F273B00D5DF90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
